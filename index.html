@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!-- jumbotron !-->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 id="jumbo" class="display-4 text-center">Trivia Game</h1>
+    <br>
+    <p id= "jumbo1" class="lead text-center">You have 5 seconds to answer 3 questions. Click Start to begin. </p>
+  </div>
+</div>
+<div class="container">
+	<div class="row time">
+	   <div class="col-md-8"> 
+     <!-- Timer text !-->
+	    <div id="timer-text">Time Left: <span class="timer">5</span>  seconds</div>
+	     <div class="form-group"> <!-- Start button !-->
+          <button type="button" class="btn btn-success start-button" name="submit" type="submit">Start</button>
+       </div> 
+     </div>
+
+  </div>
+	
+	<div class="row ">
+	  <div class="col-md-8 message"> 
+	    <form name="Trivia">
+
+            <div class="form-group"> <!-- Radio group !-->
+                <label class="control-label">1. What is the capital of China?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q1" value="a">
+                    Beijing
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio"  name="q1" value="b">
+                     Shanghai
+                  </label>
+                </div>
+                 
+
+            
+                <label class="control-label">2. Which is one of the wonders of the world?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q2" value="c">
+                    New York
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio"  name="q2" value="d">
+                    Grand Canyon
+                  </label>
+                </div>
+                
+                <label class="control-label">3. You are a Saggitarus if you are born in which month ?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q3" value="e">
+                    December
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio"  name="q3" value="f">
+                    January
+                  </label>
+                </div>
+                </div>
+                
+
+            
+        </form>  <!-- form  ends-->
+
+	    </div>   <!-- column  ends-->
+
+      <div class="col-md-4 notice"> 
+      <!-- show results-->
+        <div class="result-text">Your Result</div>
+        <div class="result"></div>
+        
+        <div id="image"></div>
+
+       </div>
+      <input class= "refresh" type="button" value="Restart Quiz" onClick="location.href=location.href">
+      
+    </div>   <!-- row ends-->
+
+
+ <!-- container ends-->
+</div>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

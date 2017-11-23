@@ -1,0 +1,64 @@
+.jumbotron{
+	height:120px;
+	font-size: 5px;
+	background-color: green ;
+	color:white;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+.start-button{
+	margin-left: 100px
+	
+}
+.timer{
+	font-size: 25px;
+	margin-top: 5px;
+	color:yellow;
+    margin-left: 12px;
+    margin-bottom: 15px;
+}
+#timer-text{
+	color: green;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.time{
+	margin-bottom: 20px;
+	margin-left: 400px;
+}
+
+.notice{
+
+	display: block;
+	background-color: #5baa27;
+	height: 300px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+body{
+	background-image: url("../images/img1.jpg");
+}
+.message{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.refresh{
+	 margin-left: 500px;
+	 background-color: #591dda;
+	 color: 	white;
+	 font-weight: bold;
+	 font-size:20px;
+}
+.result-text{
+font-size: 30px;
+text-align: center;
+}
+
+#image,.result{
+	margin-top: 10px;
+	text-align: center;
+}
