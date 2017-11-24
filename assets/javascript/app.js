@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-   	var number = 5;
+   	var number = 1;
 	var question1,question2,question3;
 	var answer;
 	var question;
