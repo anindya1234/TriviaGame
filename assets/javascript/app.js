@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-   	var number = 1;
+   	var number = 5;
 	var question1,question2,question3;
 	var answer;
 	var question;
@@ -76,14 +76,14 @@ $(document).ready(function() {
 			$(".result").append("Your score: "+result+"/3" );
 	        
 	        if (result === 0 || result === 1) {
-				$("#image").append('<img src="assets/images/1.gif" height="200px" width="300px">');
+				$("#image").append('<img src="assets/images/1.gif" height="200px" width="210px">');
 			}
 			if (result === 2 ) {
-				$("#image").append('<img src="assets/images/2.gif" height="200px" width="300px">');
+				$("#image").append('<img src="assets/images/2.gif" height="200px" width="210px">');
 			}
            
 			if (result === 3 ) {
-				$("#image").append('<img src="assets/images/3.gif" height="200px" width="300px">');
+				$("#image").append('<img src="assets/images/3.gif" height="200px" width="210px">');
 			}
            
 
