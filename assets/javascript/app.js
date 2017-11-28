@@ -72,7 +72,7 @@ $(document).ready(function() {
 			}
 			console.log(result);
 			console.log(question1,question2,question3);
-			
+			//append results and image associated with performance
 			$(".result").append("Your score: "+result+"/3" );
 	        
 	        if (result === 0 || result === 1) {
@@ -85,13 +85,6 @@ $(document).ready(function() {
 			if (result === 3 ) {
 				$("#image").append('<img src="assets/images/3.gif" height="200px" width="210px">');
 			}
-           
-
-
-
-
-
-
-	    }
+        }
 	
 });
